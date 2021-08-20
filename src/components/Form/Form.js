@@ -26,6 +26,8 @@ const Form = ({currentId,setCurrentId}) => {
         if(post){
             setPostData(post)
         }
+            // eslint-disable-next-line react-hooks/exhaustive-deps
+
     },[post])
 
 
